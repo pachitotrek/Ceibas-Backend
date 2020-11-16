@@ -1,0 +1,39 @@
+{
+  "name": "backensockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/index.js",
+    "dev": "nodemon dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-format": "^3.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.5",
+    "generate-password": "^1.4.2",
+    "google-auth-library": "^5.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.5",
+    "nodemon": "^1.19.3",
+    "rxjs": "^6.5.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.1",
+    "@types/express-fileupload": "^1.1.0",
+    "@types/fluent-ffmpeg": "^2.1.11",
+    "@types/jsonwebtoken": "^8.3.5",
+    "@types/mongoose": "^5.5.20",
+    "@types/socket.io": "^2.1.3"
+  }
+}
